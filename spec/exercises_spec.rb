@@ -10,4 +10,8 @@ describe Exercises do
     expect(b).to eq("nope")
   end
     
+  it "returns number of elements in the array" do
+    a = Exercises.ex1(["shinji","rei","asuka"])
+    expect(a).to eq(3)
+  end
 end
