@@ -14,4 +14,9 @@ describe Exercises do
     a = Exercises.ex1(["shinji","rei","asuka"])
     expect(a).to eq(3)
   end
+
+  it "returns second element in array" do
+    a = Exercises.ex2(["shinji","rei","asuka"])
+    expect(a).to eq("rei")
+  end
 end
