@@ -5,6 +5,12 @@ module Exercises
   #  - Returns "nope" if `str` is "wishes"
   def self.ex0(str)
     # TODO
+    if str == "wishes"
+      return "nope"
+    else
+    newstr = str + str + str
+    return newstr
+    end
   end
 
   # Exercise 1
